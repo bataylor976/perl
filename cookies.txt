@@ -1,0 +1,2 @@
+#LWP-Cookies-1.0
+Set-Cookie3: BBC-UID=b5480fd327598ac032fd1eefb1803c15a61fa1080080050085460826ec45a2390Windows%20IE%207; path="/"; domain=.bbc.co.uk; path_spec; expires="2018-04-16 14:03:12Z"; version=0
