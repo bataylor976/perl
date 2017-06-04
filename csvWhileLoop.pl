@@ -16,13 +16,14 @@ sub main
     {
         # Remove invisible newline character from end of line:
         chomp($line);
+
+        # split $line on commas and declare an array of named variables and 
+        # set them equal to the results of the split.
+        my ($firstname, $surname, $job) = split(',', $line);
         
-        # Just display the line for now.
-        # Put variable in quotations to prove no newline character.
-        print("'$line'");
+        # Print each line, filling in the variables w/ respective items.
+        print "$firstname $surname works as a $job\n";
     }
-
-
 
     close(INPUT);
 }
