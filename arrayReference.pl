@@ -16,7 +16,7 @@ print $fruits[1], "\n";
 print $creepy->[2], "\n";
 
 # Get a reference to @fruits.
-my $fruits = @fruits;
+my $fruits = \@fruits;
 
 # Access fruits array via its reference.
 print $fruits->[0], "\n";
