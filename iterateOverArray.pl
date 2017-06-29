@@ -1,6 +1,5 @@
 use strict;
 use warnings;
-use Data::Dumper; #Just in case :)
 $|=1;
 
 # Declare and initialize array
