@@ -50,5 +50,4 @@ sub main
     }
 }
 
-main();
-    
+main();   
