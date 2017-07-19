@@ -15,7 +15,7 @@ my %hobbies = (
 print "\n";
 
 # Iterate over the hash keys. Use keys to get the 
-# keys as an array, sort the array,
+# hash as an array, sort the array,
 # then iterate over the array with foreach.
 
 foreach my $name(sort {$a cmp $b} keys %hobbies) {
@@ -26,7 +26,7 @@ foreach my $name(sort {$a cmp $b} keys %hobbies) {
 
 print "\n";
 
-# If the hash keys are numbers, you need 
+# If the hash keys are numbers, you need
 # to use <=> and not cmp to sort.
 
 my %numbers = (
@@ -38,7 +38,7 @@ my %numbers = (
 
 foreach my $digit(sort {$a <=> $b} keys %numbers) {
     my $number = $numbers{$digit};
-    
+
     print "$digit: $number\n";
 }
 
