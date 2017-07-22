@@ -18,6 +18,8 @@ while( my ($name, $hobby) = each %hobbies ) {
     print "$name: $hobby\n";
 }
 
+# Iterate over the hash using keys.
+
 print "\nUsing keys: \n";
 
 foreach my $name(keys %hobbies) {
