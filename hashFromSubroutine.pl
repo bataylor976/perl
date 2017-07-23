@@ -25,7 +25,7 @@ sub main
     # Iterate through the hash and print
     # the key-value pairs.
     # Note, we typecast the reference to the hash.
-    # to an actual hash by prefixing git with %.
+    # to an actual hash by prefixing it with %.
     while( my ($key, $value) = each %$hash_ref ) {
         print "$key = $value\n"
     }
