@@ -14,4 +14,4 @@ while(my $line = <>) {
     print $line;
 }
 
-print "Replaced 'lion' with 'orange.'";
+print "Replaced 'lion' with 'orange.'\n";
