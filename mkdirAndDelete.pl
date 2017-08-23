@@ -8,17 +8,18 @@ sub main {
     #    die "Unable to create $directory\n";
     #}
 
-    unless(-e $directory or mkdir $directory) {
-	die "Unable to create $directory\n";
-    }
-
     if (-e $directory)
     {
-        print "Directory $directory already exists\n";  
+        print "Directory '$directory' already exists\n";
     }
     else
     {
-        print "Creating $directory\n"; 
+        print "Creating directory '$directory'\n";
+    }
+
+
+    unless(-e $directory or mkdir $directory) {
+        die "Unable to create $directory\n";
     }
 
     rmdir $directory;
